@@ -165,3 +165,23 @@ Avatar Visualization:
 - Avoid Long Method Chains
 - Use Design Patterns
 - Encapsulate What Varies
+
+---
+
+## Testing Strategy
+
+### Unit Tests:
+
+- Write unit tests for individual functions and methods using tools like JUnit, Vitest, and Mockito.
+
+### Integration Tests:
+
+- Test interaction between system components (e.g., frontend-backend communication, Codex integration).
+
+### End-to-End Tests:
+
+- Simulate user behavior using tools like Cypress or Selenium to test the full application flow.
+
+### Load Testing:
+
+- Test system scalability and load capacity, especially for AI services, to ensure quick response times for outfit suggestions.
